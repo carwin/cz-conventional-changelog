@@ -73,7 +73,7 @@ module.exports = function (options) {
         }, {
           type: 'input',
           name: 'issues',
-          message: 'List any issues closed by this change:\n'
+          message: 'List any issues referenced by this change:\n'
         }
       ]).then(function(answers) {
 
